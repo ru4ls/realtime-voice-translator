@@ -2,9 +2,8 @@
 
 An interactive web application designed to break down language barriers in real-time conversations. Built with Streamlit and containerized with Docker, this app leverages Google Cloud's powerful AI services to provide a seamless translation experience for interviews, meetings, and global collaboration.
 
-![App Screenshot](https://user-images.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME/blob/main/app_screenshot.png)
-*(Recommendation: Add a screenshot of your running application here and update the link)*
-
+![AI Voice Translator Screenshot](assets/app_preview01.png)
+(assets/app_preview02.png)
 ---
 
 ## 🎯 The Real-World Problem This Solves
