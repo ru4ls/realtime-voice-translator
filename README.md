@@ -3,8 +3,8 @@
 An interactive web application designed to break down language barriers in real-time conversations. Built with Streamlit and containerized with Docker, this app leverages Google Cloud's powerful AI services to provide a seamless translation experience for interviews, meetings, and global collaboration.
 
 <p align="center">
-  <img src="assets/app_preview01.png.png" alt="Main application interface User A" width="48%">
-  <img src="assets/app_preview02.png.png" alt="Main application interface User B" width="48%">
+  <img src="assets/app_preview01.png" alt="Main application interface User A" width="48%">
+  <img src="assets/app_preview02.png" alt="Main application interface User B" width="48%">
 </p>
 ---
 
