@@ -1,0 +1,9 @@
+google-cloud-speech
+google-cloud-translate
+google-cloud-texttospeech
+sounddevice
+numpy
+python-dotenv
+streamlit
+streamlit-mic-recorder
+pydub

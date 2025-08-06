@@ -1,0 +1,16 @@
+services:
+  app:
+    build: .
+    image: ai-translator-app
+    ports:
+      - "8501:8501"
+    env_file:
+      - .env
+    # This 'volumes' section is new
+    volumes:
+      # Maps the local 'src' directory into the '/app/src' directory inside the container.
+      # Any change you make to a .py file locally will be reflected instantly.
+      - ./src:/app/src
+      # map the configs folder, in case you want to change them without rebuilding.
+      - ./configs:/app/configs
+    restart: on-failure
