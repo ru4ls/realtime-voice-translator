@@ -6,6 +6,7 @@ An interactive web application designed to break down language barriers in real-
   <img src="assets/app_preview01.png" alt="Main application interface User A" width="48%">
   <img src="assets/app_preview02.png" alt="Main application interface User B" width="48%">
 </p>
+
 ---
 
 ## 🎯 The Real-World Problem This Solves
