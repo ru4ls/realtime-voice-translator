@@ -96,8 +96,8 @@ This project is designed to be run with Docker. Please ensure you have **Docker*
 ### **Step 2: Clone This Repository**
 
 ```bash
-git clone https://github.com/ru4ls/ai-voice-translator.git
-cd ai-voice-translator
+git clone https://github.com/ru4ls/realtime-voice-translator.git
+cd realtime-voice-translator
 ```
 
 ### **Step 3: Create the `.env` File**
