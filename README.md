@@ -1,4 +1,4 @@
-# 🎤 AI Real-time Voice Translator
+# AI Real-time Voice Translator
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python Version](https://img.shields.io/badge/Python-3.9-blue.svg)
@@ -11,9 +11,11 @@ An interactive web application designed to break down language barriers in real-
   <img src="assets/app_preview02.png" alt="Main application interface User B" width="48%">
 </p>
 
+<br/>
+
 ---
 
-## 🎯 The Real-World Problem This Solves
+## The Real-World Problem This Solves
 
 In our increasingly globalized world, language differences remain a significant barrier in professional settings. This is especially true during:
 - **International Job Interviews:** Talented candidates may struggle to express their true expertise when an interview is not in their native language.
@@ -24,7 +26,7 @@ This application directly addresses these challenges by providing a personal, re
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Real-time Voice Translation:** Record your voice directly in the browser and get instant results.
 - **Multi-Language Support:**
@@ -38,7 +40,7 @@ This application directly addresses these challenges by providing a personal, re
 
 ---
 
-## 💡 Usage Scenarios
+## Usage Scenarios
 
 This tool is designed to be flexible. Here’s how you can use it for effective communication.
 
@@ -69,7 +71,7 @@ This method eliminates all audio quality issues and complex setup, creating a se
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Application Framework:** Python, Streamlit
 - **AI Services (Google Cloud):** Speech-to-Text, Translation, Text-to-Speech (WaveNet)
@@ -78,7 +80,7 @@ This method eliminates all audio quality issues and complex setup, creating a se
 
 ---
 
-## ⚙️ Setup and Installation
+## Setup and Installation
 
 This project is designed to be run with Docker. Please ensure you have **Docker** and **Docker Compose** installed on your system.
 
@@ -122,6 +124,6 @@ Open your web browser and navigate to: **http://localhost:8501**
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
