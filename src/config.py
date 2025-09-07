@@ -43,7 +43,7 @@ def _load_json_config(file_path: str):
 
 # 5. Load language lists.
 SUPPORTED_LANGUAGES = _load_json_config(_get_config_path('target_languages.json'))
-SUPPORTED_SOURCE_LANGUAGES = _load_json_config(_get_config_path('source_languages.json'))
+
 
 # 6. Other static settings.
 #    SAMPLE_RATE is no longer needed here as it's determined dynamically in services.py,

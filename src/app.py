@@ -32,9 +32,9 @@ if 'translated_audio' not in st.session_state:
 st.sidebar.header("Translation Settings")
 
 # --- WIDGET 1 & 2: LANGUAGE OPTION ---
-source_language_names = list(config.SUPPORTED_SOURCE_LANGUAGES.keys())
+source_language_names = list(config.SUPPORTED_LANGUAGES.keys())
 selected_source_language_name = st.sidebar.selectbox("1. Select Your Source Language:", options=source_language_names, index=0)
-source_lang_code = config.SUPPORTED_SOURCE_LANGUAGES[selected_source_language_name]
+source_lang_code = config.SUPPORTED_LANGUAGES[selected_source_language_name]["lang_code"]
 st.sidebar.markdown("---")
 target_language_names = list(config.SUPPORTED_LANGUAGES.keys())
 selected_target_language_name = st.sidebar.selectbox("2. Select Target Language:", options=target_language_names)
